@@ -1,4 +1,8 @@
 theme: jekyll-theme-cayman
+
+
+
 collections:
   pdf:
     output: true
+     permalink: /pdf/:path
