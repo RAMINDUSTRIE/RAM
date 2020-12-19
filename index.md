@@ -1,6 +1,6 @@
 {% assign doclist = site.pages | sort: 'url'  %}
 
-{{ doclist }}
+{% doclist %}
 
 <ul>
    {% for doc in pdf %}
