@@ -4,7 +4,7 @@
 <ul>
    {% for doc in doclist %}
        
-            <li><a href="{{ site.baseurl }}{{ doc.url }}">{{ doc.url }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a></li>
        
   {% endfor %}
 </ul>
