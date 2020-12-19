@@ -1,4 +1,7 @@
 {% assign doclist = site.pages | sort: 'url'  %}
+
+{{ doclist }}
+
 <ul>
    {% for doc in pdf %}
         {% if doc.name contains '.md' or doc.name contains '.html' %}
