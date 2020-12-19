@@ -1,4 +1,4 @@
-{% assign doclist = site.documents | sort: 'url'  %}
+{% assign doclist = site.pdf | sort: 'url'  %}
 
 
 <ul>
